@@ -7,7 +7,7 @@ from jax.typing import ArrayLike
 
 no_nan = lambda x: jnp.nan_to_num(x, nan=0, posinf=0, neginf=0)
 
-def measure(tens1: jnp.ndarray, tens2: jnp.ndarray, weight: jnp.ndarray) -> jax.Array:
+def measure(tens1: ArrayLike, tens2: ArrayLike, weight: ArrayLike) -> jax.Array:
     ##########
     # ORIGIN #
     ##########
