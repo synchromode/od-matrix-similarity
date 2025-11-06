@@ -27,7 +27,7 @@ project
 │   │   └── georef-netherlands-postcode-pc4.geojson
 │   └── madrid
 │       └── ...
-├── data_generation
+├── odm_generation
 │   ├── south_holland.py
 │   └── madrid.py
 └── ...
